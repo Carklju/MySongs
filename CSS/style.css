@@ -1,0 +1,162 @@
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 90px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    margin: 40px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover{
+    font-size: 23px;
+    border-bottom: 2px groove white;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+.logo img{
+    height: 90px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+    width: 250px;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.login-btn{
+    margin-right: 50px;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+.login-btn:hover{
+    font-size: 23px;
+    border-bottom: 2px groove white;
+}
+
+.register-btn{
+    margin-right: 50px;
+    font-size: 20px;
+    color: lightgray;
+    transition: 0.5s;
+}
+
+.register-btn:hover{
+    font-size: 23px;
+    border-bottom: 2px groove white;
+}
+
+.best{
+    margin: 150px;
+    margin-top: 75px;
+}
+
+.best-header{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.best-header span{ 
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.best-header p{
+    margin-top: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+    color: grey;
+    cursor: pointer;
+}
+
+.best-header p:hover{
+    text-decoration: underline;
+}
+
+.best-header a{
+    text-decoration: none;
+}
+
+.best-songs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.best-instrument{
+    margin-bottom: 75px;
+}
+
+.best-song{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    gap: 5px;
+    margin:20px;
+    box-shadow: 2px 1px 17px -3px rgba(0,0,0,0.75);
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.best-song:hover{
+    transform: translateY(-10px);
+}
+
+.best-song img{
+    width:225px;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.best-song span{
+    padding: 15px;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+.best-song span:hover{
+    background-color: black;
+    color:white;
+}
+
+.best-song h4{
+    color: grey;
+}
+
+
+
