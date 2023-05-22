@@ -64,7 +64,7 @@
 .register-btn{
     margin-right: 50px;
     font-size: 20px;
-    color: white;
+    color: lightgray;
     transition: 0.5s;
 }
 
@@ -73,99 +73,47 @@
     border-bottom: 2px groove white;
 }
 
-/* ------------------------------------*/
+/*----------------------------------------- */
 
-.best{
-    margin: 150px;
-    margin-top: 75px;
-}
-
-.best-header{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.best-header span{ 
-    font-size: 50px;
-    text-transform: capitalize;
-}
-
-.best-header p{
-    margin-top: 10px;
-    font-size: 20px;
-    transition: 0.5s;
-    color: grey;
-    cursor: pointer;
-}
-
-.best-header p:hover{
-    text-decoration: underline;
-}
-
-.best-header a{
-    text-decoration: none;
-}
-
-.best-songs{
+.instruments{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    gap: 20px;
+    margin-top: 100px;
 }
 
-.best-instrument{
-    margin-bottom: 75px;
-}
-
-.best-song{
+.instrument { 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 250px;
-    gap: 5px;
-    margin:20px;
+    gap: 20px;
     box-shadow: 2px 1px 17px -3px rgba(0,0,0,0.75);
-    transition: 0.5s;
-    cursor: pointer;
-    border-radius: 20px;
+    transition: 0.5s
 }
 
-.best-song:hover{
+.instrument:hover{
     transform: translateY(-10px);
 }
 
-.best-song img{
-    width:225px;
-    height: 270px;
-    border-radius: 20px;
+.instrument img{
+    width: 250px;
 }
 
-.best-song span{
-    padding: 15px;
-    color: black;
+.instrument span{
+    font-size: 20px;
+    margin-bottom: 15px;
     border: 1px solid black;
-    transition: 0.5s;
-    background-color: white;
     border-radius: 20px;
-    margin: 10px 0;
+    padding: 10px;
+    transition: 0.5s;
 }
 
-.best-song span:hover{
+.instrument span:hover{
     background-color: black;
     color:white;
 }
-
-.best-song h4{
-    color: grey;
-}
-
-.details-wrapper{
-    display: none;
-}
-
-@media only screen and (max-width: 1480px) {
-    .best-song img{
-        width:205px;
-    }
-  }

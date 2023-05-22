@@ -59,3 +59,8 @@ function proveraPassworda(password, confirm, provera){
         }
     }
 }
+
+//Dugme back
+document.querySelector(".back-btn").addEventListener("click", () =>{
+    window.location.replace("../index.html");
+});

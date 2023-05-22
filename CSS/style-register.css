@@ -1,3 +1,30 @@
+.back-btn{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin: 100px;
+    background-color: black;
+    width: 150px;
+    height: 75px;
+    border-radius: 20px;
+}
+
+.back-btn span{
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    transition: 0.5s;
+    border-radius: 20px;
+    padding: 25px 50px;
+    box-shadow: 3px 3px 8px 3px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.back-btn span:hover{
+    color: black;
+    background-color: white;
+}
+
 .wrapper{
     position: absolute;
     top: 50%;

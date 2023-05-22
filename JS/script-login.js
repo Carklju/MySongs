@@ -31,3 +31,8 @@ let login = document.querySelector(".login").addEventListener("click", ()=>{
         username.removeAttribute("class");
     }
 });
+
+//Dugme za povratak na home stranicu
+document.querySelector(".back-btn").addEventListener("click", () =>{
+    window.location.replace("../index.html");
+});
