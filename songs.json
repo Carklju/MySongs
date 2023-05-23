@@ -1,0 +1,65 @@
+{
+    "songs":[
+        {
+            "title": "Smells Like Teen Spirit",
+            "artist": "Nirvana",
+            "releaseDate": 1999,
+            "instrument": "Electric Guitar",
+            "img": "icon-01.png"
+        },
+        {
+            "title": "Wonderwall",
+            "artist": "Oasis",
+            "releaseDate": 1999,
+            "instrument":"Electric Guitar"
+        },
+        {
+            "title": "Hotel California",
+            "artist": "Eagles",
+            "releaseDate": 1999,
+            "instrument":"Electric Guitar"
+        },
+        {
+            "title": "Sweet Child O'Mine",
+            "artist": "Guns N' Roses",
+            "releaseDate": 1999,
+            "instrument":"Electric Guitar"
+        },
+        {
+            "title": "Stairway to Heaven",
+            "artist": "Oasis",
+            "releaseDate": 1999,
+            "instrument":"Electric Guitar"
+        },
+        {
+            "title": "Schism",
+            "artist": "TOOL",
+            "releaseDate": 1999,
+            "instrument":"Bass Guitar"
+        },
+        {
+            "title": "Can't Stop",
+            "artist": "Red Hot Chilli Peppers",
+            "releaseDate": 1999,
+            "instrument":"Bass Guitar"
+        },
+        {
+            "title": "Orion",
+            "artist": "Metallica",
+            "releaseDate": 1999,
+            "instrument":"Bass Guitar"
+        },
+        {
+            "title": "Hysteria",
+            "artist": "Muse",
+            "releaseDate": 1999,
+            "instrument":"Bass Guitar"
+        },
+        {
+            "title": "Sir Duke",
+            "artist": "Stevie Wonder",
+            "releaseDate": 1999,
+            "instrument":"Bass Guitar"
+        }
+    ]
+}
