@@ -4,32 +4,32 @@
             "title": "Smells Like Teen Spirit",
             "artist": "Nirvana",
             "releaseDate": 1999,
-            "instrument": "Electric Guitar",
+            "instrument": "Guitar",
             "img": "icon-01.png"
         },
         {
             "title": "Wonderwall",
             "artist": "Oasis",
             "releaseDate": 1999,
-            "instrument":"Electric Guitar"
+            "instrument":"Guitar"
         },
         {
             "title": "Hotel California",
             "artist": "Eagles",
             "releaseDate": 1999,
-            "instrument":"Electric Guitar"
+            "instrument":"Guitar"
         },
         {
             "title": "Sweet Child O'Mine",
             "artist": "Guns N' Roses",
             "releaseDate": 1999,
-            "instrument":"Electric Guitar"
+            "instrument":"Guitar"
         },
         {
             "title": "Stairway to Heaven",
             "artist": "Oasis",
             "releaseDate": 1999,
-            "instrument":"Electric Guitar"
+            "instrument":"Guitar"
         },
         {
             "title": "Schism",

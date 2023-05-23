@@ -117,3 +117,31 @@
     background-color: black;
     color:white;
 }
+
+.song-wrapper{
+    margin: 200px;
+}
+
+.song{
+    display: flex;
+    list-style-type: none;
+    box-shadow: 10px 10px 8px -9px rgba(0,0,0,0.75);
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.song img{
+    width: 100px;
+    height: 100px;
+}
+
+.name p{
+    font-size: 20px;
+    margin: 10px 0px 10px 20px;
+}
+
+.name span{
+    color:grey;
+    margin: 10px 0px 10px 20px;
+}
+
