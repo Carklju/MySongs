@@ -3,107 +3,197 @@
         {
             "title": "Smells Like Teen Spirit",
             "artist": "Nirvana",
-            "releaseDate": 1999,
+            "releaseDate": "1991",
             "instrument": "Guitar",
-            "img": "icon-01.png"
+            "img": "icon-01.png",
+            "album": "Nevermind" ,
+            "duration": "5:01",
+            "genre": "Grunge",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "Nirvana_-_Smells_Like_Teen_Spirit.mp3"
         },
         {
             "title": "Wonderwall",
             "artist": "Oasis",
-            "releaseDate": 1999,
+            "releaseDate": "1995",
             "instrument":"Guitar",
-            "img": "icon.02.jpg"
+            "img": "icon.02.jpg",
+            "album": "(What's the Story) Morning Glory?" ,
+            "duration": "4:18",
+            "genre": "Britpop",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "Oasis_-_Wonderwall_.mp3"
         },
         {
             "title": "Hotel California",
             "artist": "Eagles",
-            "releaseDate": 1999,
+            "releaseDate": "1976",
             "instrument":"Guitar",
-            "img": "icon-01.png"
+            "img": "icon-03.png",
+            "album": "Hotel California" ,
+            "duration": "6:30",
+            "genre": "Rock",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "Eagles_-_Hotel_California_2013_Remaster_2013.mp3"
         },
         {
             "title": "Sweet Child O'Mine",
             "artist": "Guns N' Roses",
-            "releaseDate": 1999,
+            "releaseDate": "1987",
             "instrument":"Guitar",
-            "img": "icon-01.png"
+            "img": "icon-04.jpeg",
+            "album": "Appetite for Destruction" ,
+            "duration": "5:55",
+            "genre": "Rock",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "Guns_N_Roses_-_Sweet_Child_O_Mine.mp3"
         },
         {
             "title": "Stairway to Heaven",
             "artist": "Led Zeppelin",
-            "releaseDate": 1999,
+            "releaseDate": "1971",
             "instrument":"Guitar",
-            "img": "icon-01.png"
+            "img": "icon-05.jpeg",
+            "album": "Led Zeppelin IV" ,
+            "duration": "8:02",
+            "genre": "Rock",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "Led_Zeppelin_-_Stairway_to_Heaven_2012.mp3"
         },
         {
             "title": "Schism",
             "artist": "TOOL",
-            "releaseDate": 1999,
+            "releaseDate": "2001",
             "instrument":"Bass Guitar",
-            "img": "icon-01.png"
+            "img": "icon-06.jpeg",
+            "album": "Lateralus" ,
+            "duration": "6:47",
+            "genre": "Progressive Metal",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "Schism.mp3"
         },
         {
             "title": "Can't Stop",
             "artist": "Red Hot Chilli Peppers",
-            "releaseDate": 1999,
+            "releaseDate": "2002",
             "instrument":"Bass Guitar",
-            "img": "icon-01.png"
+            "img": "icon-07.jpeg",
+            "album": "By The Way" ,
+            "duration": "4:29",
+            "genre": "Alternative Rock",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "Red_Hot_Chili_Peppers_-_Can_t_Stop.mp3"
         },
         {
             "title": "Orion",
             "artist": "Metallica",
-            "releaseDate": 1999,
+            "releaseDate": "1986",
             "instrument":"Bass Guitar",
-            "img": "icon-01.png"
+            "img": "icon-08.jpeg",
+            "album": "Master of Puppets" ,
+            "duration": "8:27",
+            "genre": "Thrash Metal",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "Metallica_-_Orion.mp3"
         },
         {
             "title": "Hysteria",
             "artist": "Muse",
-            "releaseDate": 1999,
+            "releaseDate": "2003",
             "instrument":"Bass Guitar",
-            "img": "icon-01.png"
+            "img": "icon-09.jpeg",
+            "album": "Absolution" ,
+            "duration": "3:47",
+            "genre": "Alternative Rock",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "Muse_-_Hysteria.mp3"
         },
         {
             "title": "Sir Duke",
             "artist": "Stevie Wonder",
-            "releaseDate": 1999,
+            "releaseDate": "1997",
             "instrument":"Bass Guitar",
-            "img": "icon-01.png"
+            "img": "icon-10.jpeg",
+            "album": "Songs in the Key of Life" ,
+            "duration": "3:52",
+            "genre": "R&B",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "Stevie_Wonder_-_Sir_Duke.mp3"
         },
         {
             "title": "Tom Sawyer",
             "artist": "Rush",
-            "releaseDate": 1999,
+            "releaseDate": "1981",
             "instrument":"Drums",
-            "img": "icon-01.png"
+            "img": "icon-11.jpeg",
+            "album": "Moving Pictures" ,
+            "duration": "4:35",
+            "genre": "Progressive Rock",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "Rush - Tom Sawyer.mp3"
         },
         {
             "title": "Toxicity",
             "artist": "System of A Down",
-            "releaseDate": 1999,
+            "releaseDate": "2001",
             "instrument":"Drums",
-            "img": "icon-01.png"
+            "img": "icon-12.jpeg",
+            "album": "Toxicity" ,
+            "duration": "3:39",
+            "genre": "Alternative Metal",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "System_Of_A_Down_-_Toxicity.mp3"
         },
         {
             "title": "Bleed",
             "artist": "Meshuggah",
-            "releaseDate": 1999,
+            "releaseDate": "2008",
             "instrument":"Drums",
-            "img": "icon-01.png"
+            "img": "icon-13.jpeg",
+            "album": "ObZen" ,
+            "duration": "7:22",
+            "genre": "Extreme Metal",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "Meshuggah - Bleed.mp3"
         },
         {
             "title": "Kashmir",
             "artist": "Led Zeppelin",
-            "releaseDate": 1999,
+            "releaseDate": "1975",
             "instrument":"Drums",
-            "img": "icon-01.png"
+            "img": "icon-14.jpeg",
+            "album": "Physical Graffiti" ,
+            "duration": "8:28",
+            "genre": "Rock",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "Led_Zeppelin_-_Kashmir.mp3"
         },
         {
             "title": "Come Togheter",
             "artist": "The Beatles",
-            "releaseDate": 1999,
+            "releaseDate": "1969",
             "instrument":"Drums",
-            "img": "icon-01.png"
+            "img": "icon-15.jpeg",
+            "album": "Abbey Road" ,
+            "duration": "4:20",
+            "genre": "Blues Rock",
+            "lyrics": "",
+            "language": "English",
+            "mp3": "ComeTogheter.mp3"
         }    
     ]
 }

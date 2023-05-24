@@ -1,3 +1,4 @@
+/*Back button*/
 .back-btn{
     display: flex;
     justify-content: center;    
@@ -24,7 +25,7 @@
     color: black;
     background-color: white;
 }
-
+/*CSS za login*/
 .wrapper{
     position: absolute;
     top: 50%;

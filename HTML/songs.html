@@ -1,54 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../CSS/style-songs.css" />
-    <link rel="stylesheet" href="../CSS/zajednicki.css"/>
-    <link rel="shortcut icon" href="images/icon za tab.png"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../CSS/zajednicki.css" />
+    <link rel="shortcut icon" href="../images/icon za tab.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <script src="https://kit.fontawesome.com/9193b408a4.js" crossorigin="anonymous"></script>
     <title>MySongs</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="navbar">
-        <div class="logo">
-          <img src="../images/logo.avif" alt="logo" width="100px" height="100px" />
-        </div>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../HTML/songs.html">Songs</a></li>
-        </ul>
-        <div class="login">
-          <a href="../HTML/login.html">
-            <span class="login-btn"> Login </span>
-          </a>
-          <a href="../HTML/register.html">
-            <span class="register-btn"> Sign Up </span>
-          </a>
+      <div class="logo">
+        <img
+          src="../images/logo.avif"
+          alt="logo"
+          width="100px"
+          height="100px"
+        />
+      </div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../HTML/songs.html">Songs</a></li>
+      </ul>
+      <div class="login">
+        <a href="../HTML/login.html">
+          <span class="login-btn"> Login </span>
+        </a>
+        <a href="../HTML/register.html">
+          <span class="register-btn"> Sign Up </span>
+        </a>
+      </div>
+    </div>
+    <div class="instruments">
+      <div class="instrument">
+        <img src="../images/electric-guitar.webp" alt="" />
+        <span>Guitar</span>
+      </div>
+      <div class="instrument">
+        <img src="../images/bass.png" alt="Bass" />
+        <span>Bass Guitar</span>
+      </div>
+      <div class="instrument">
+        <img src="../images/drums.webp" alt="Drums" />
+        <span>Drums</span>
+      </div>
+    </div>
+    <div class="song-wrapper">
+      <ul class="song-list"></ul>
+      <div class="song-detail">
+        <img src="../images/icon-01.png" alt="" />
+        <div class="song-details-info">
+          <p><span>Title: </span>Smells Like Teen Spirit</p>
+          <p><span>Artist: </span>Nirvana</p>
+          <p><span>Album: </span>Nevermind</p>
+          <p><span>Release Date: </span>1991</p>
+          <p><span>Duration: </span>5:01</p>
+          <p><span>Genre: </span>Grudge</p>
+          <p><span>Language: </span>English</p>
+          <audio id="audioMp3">
+            <source src="../media/Nirvana_-_Smells_Like_Teen_Spirit.mp3"
+            type="audio/mpeg">
+          </audio>
+          <input type="range" value="0" id="progress">
+          <div class="controls">
+            <!-- <div><i class="fa-solid fa-backward"></i></div> -->
+            <div><i class="fa-solid fa-play" id="dugmePlay"></i></div>
+            <!-- <div><i class="fa-solid fa-forward"></i></div> -->
+          </div>
         </div>
       </div>
-        <div class="instruments">
-          <div class="instrument">
-            <img src="../images/electric-guitar.webp" alt="">
-            <span>Guitar</span>
-          </div>
-          <div class="instrument">
-            <img src="../images/bass.png" alt="Bass">
-            <span>Bass Guitar</span>
-          </div>
-          <div class="instrument">
-            <img src="../images/drums.webp" alt="Drums">
-            <span>Drums</span>
-          </div>
-        </div>
-        <div class="song-wrapper">
-          <ul class="song-list">
-          </ul>
-          <!-- <div class="song-detail">
-          <img src="../images/icon-01.png" alt="">
-          </div> -->
-        </div>
-        <script src="../JS/script-songs.js"></script>
-</body>
+    </div>
+    <script src="../JS/script-songs.js"></script>
+  </body>
 </html>
