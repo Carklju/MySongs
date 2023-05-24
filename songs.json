@@ -11,55 +11,99 @@
             "title": "Wonderwall",
             "artist": "Oasis",
             "releaseDate": 1999,
-            "instrument":"Guitar"
+            "instrument":"Guitar",
+            "img": "icon.02.jpg"
         },
         {
             "title": "Hotel California",
             "artist": "Eagles",
             "releaseDate": 1999,
-            "instrument":"Guitar"
+            "instrument":"Guitar",
+            "img": "icon-01.png"
         },
         {
             "title": "Sweet Child O'Mine",
             "artist": "Guns N' Roses",
             "releaseDate": 1999,
-            "instrument":"Guitar"
+            "instrument":"Guitar",
+            "img": "icon-01.png"
         },
         {
             "title": "Stairway to Heaven",
-            "artist": "Oasis",
+            "artist": "Led Zeppelin",
             "releaseDate": 1999,
-            "instrument":"Guitar"
+            "instrument":"Guitar",
+            "img": "icon-01.png"
         },
         {
             "title": "Schism",
             "artist": "TOOL",
             "releaseDate": 1999,
-            "instrument":"Bass Guitar"
+            "instrument":"Bass Guitar",
+            "img": "icon-01.png"
         },
         {
             "title": "Can't Stop",
             "artist": "Red Hot Chilli Peppers",
             "releaseDate": 1999,
-            "instrument":"Bass Guitar"
+            "instrument":"Bass Guitar",
+            "img": "icon-01.png"
         },
         {
             "title": "Orion",
             "artist": "Metallica",
             "releaseDate": 1999,
-            "instrument":"Bass Guitar"
+            "instrument":"Bass Guitar",
+            "img": "icon-01.png"
         },
         {
             "title": "Hysteria",
             "artist": "Muse",
             "releaseDate": 1999,
-            "instrument":"Bass Guitar"
+            "instrument":"Bass Guitar",
+            "img": "icon-01.png"
         },
         {
             "title": "Sir Duke",
             "artist": "Stevie Wonder",
             "releaseDate": 1999,
-            "instrument":"Bass Guitar"
-        }
+            "instrument":"Bass Guitar",
+            "img": "icon-01.png"
+        },
+        {
+            "title": "Tom Sawyer",
+            "artist": "Rush",
+            "releaseDate": 1999,
+            "instrument":"Drums",
+            "img": "icon-01.png"
+        },
+        {
+            "title": "Toxicity",
+            "artist": "System of A Down",
+            "releaseDate": 1999,
+            "instrument":"Drums",
+            "img": "icon-01.png"
+        },
+        {
+            "title": "Bleed",
+            "artist": "Meshuggah",
+            "releaseDate": 1999,
+            "instrument":"Drums",
+            "img": "icon-01.png"
+        },
+        {
+            "title": "Kashmir",
+            "artist": "Led Zeppelin",
+            "releaseDate": 1999,
+            "instrument":"Drums",
+            "img": "icon-01.png"
+        },
+        {
+            "title": "Come Togheter",
+            "artist": "The Beatles",
+            "releaseDate": 1999,
+            "instrument":"Drums",
+            "img": "icon-01.png"
+        }    
     ]
 }
