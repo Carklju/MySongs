@@ -188,9 +188,20 @@
     color: grey; 
 }
 
+.show-less{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#StrelicaGore{
+    transform: rotate(180deg);
+}
+
 /*Audio player */
 #progress{
-    /* -webkit-appearance: none; */
+    -webkit-appearance: none;
     width: 100%;
     height: 6px;
     background: lightgray;
