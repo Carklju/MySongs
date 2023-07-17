@@ -1,66 +1,72 @@
-/*Validacija registracije*/
 let email = document.getElementById("email");
 
-let passwordProvera = document.querySelector(".register").addEventListener("click", () => {
+/*Register validation*/
+let passwordCheck = document.querySelector(".register").addEventListener("click", () => {
     let username = document.getElementById("usertxt");
     let email = document.getElementById("email");
     let password = document.getElementById("passwordtxt");
     let confirm = document.getElementById("confirmpasswordtxt");
-    let provera = true;
+    let check = true;
 
     if(username.value === ""){
         username.className = "error";
-        provera = false;
+        check = false;
     }else{
         username.removeAttribute("class");
     }
 
-    proveraEmail(email, provera);
+    proveraEmail(email, check);
+    proveraPassworda(password, confirm, check);
 
-    proveraPassworda(password, confirm, provera);
-
+    if(check === true){
+        localStorage.setItem("username", username.value);
+        localStorage.setItem("email", email.value);
+        localStorage.setItem("password", password.value);
+        window.location.href = "HTML/login.html";
+    }
 });
 
-/*Funkcija koja proverava da li je mejl ispravan*/
-function proveraEmail(email, provera){
-    const mailformat =
+/*Function that checks the correctness of an email*/
+function checkEmail(email, check){
+    const mailFormat =
   /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
-    if(email.value.match(mailformat)){
+    if(email.value.match(mailFormat)){
         email.removeAttribute("class");
         return true;
     }else{
-        provera = false;
+        check = false;
         email.className = "error";
         return false;
     }
 }
 
-/*Funkcija koja proverava da li je sifra ispravna*/
-function proveraPassworda(password, confirm, provera){
+/*Function that checks the correcntess of the password*/
+function checkPassworda(password, confirm, check){
     if(password.value === ""){
         password.className = "error";
         confirm.className = "error"
-        provera = false;
+        check = false;
     }
     else{
         if(password.value.length < 5){
             password.className = "error";
             confirm.className = "error"
-            provera = false;
+            check = false;
         }else{
             if(password.value === confirm.value){
                 password.removeAttribute("class");
                 confirm.removeAttribute("class");
             }
             else{
-                provera = false;
+                check = false;
             }
         }
     }
 }
 
-//Dugme back
-document.querySelector(".back-btn").addEventListener("click", () =>{
-    window.location.replace("../index.html");
-});
+let alreadyReg = document.querySelector("#Already");
+
+alreadyReg.addEventListener("click", () =>{
+    window.location.href = "http://127.0.0.1:5500/HTML/login.html";
+})

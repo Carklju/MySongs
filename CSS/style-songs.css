@@ -1,7 +1,23 @@
+.upper{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.upper p{
+    font-size: 22px;
+    color: grey;
+}
+
 .navbar{
     display: flex;
     background-color: black;
     height: 90px;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar ul{
@@ -30,11 +46,22 @@
 }
 
 .logo{
+    display: flex;
+    align-items: center;
     margin-left: 100px;
 }
 
+.logo p {
+    color: white;
+    font-size: 25px;
+}
+
+.logo span{
+    color:grey;
+}
+
 .logo img{
-    height: 90px;
+    height: 80px;
 }
 
 .login{
@@ -43,37 +70,54 @@
     justify-content: center;
     margin-right: 70px;
     width: 250px;
-}
-
-.login a {
-    text-decoration: none;
-}
-
-.login-btn{
-    margin-right: 50px;
-    font-size: 20px;
     color: white;
+    font-size: 23px;
+    gap: 10px;
+}
+
+.login span{
+    color:white;
+    font-size: 40px;
+    cursor: pointer;
     transition: 0.5s;
 }
 
-.login-btn:hover{
-    font-size: 23px;
+.login span:hover{
+    font-size: 45px;
     border-bottom: 2px groove white;
 }
 
-.register-btn{
-    margin-right: 50px;
-    font-size: 20px;
-    color: white;
-    transition: 0.5s;
+.sticky{
+    position: fixed;
+    top: 0;
+    border-bottom: 5px solid grey;
 }
 
-.register-btn:hover{
-    font-size: 23px;
-    border-bottom: 2px groove white;
+.hamburger{
+    display: none;
+    cursor: pointer;
 }
-
 /*----------------------------------------- */
+
+.back{
+    margin:50px 100px;
+    cursor: pointer;
+}
+
+.back span{
+    padding: 15px;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+.back span:hover{
+    color:white;
+    background-color: black;
+}
 
 .instruments{
     display: flex;
@@ -82,7 +126,7 @@
     justify-content: center;
     width: 100%;
     gap: 20px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .instrument { 
@@ -111,6 +155,7 @@
     border-radius: 20px;
     padding: 10px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .instrument span:hover{
@@ -121,7 +166,7 @@
 .song-wrapper{
     display: flex;
     flex-direction: column;
-    margin: 200px;
+    margin: 100px;
 }
 
 .song{
@@ -157,6 +202,7 @@
     display: flex;
     width: 100%;
     justify-content: end;
+    cursor: pointer;
 }
 
 .song-detail{
@@ -169,6 +215,8 @@
     box-shadow: 10px 10px 8px -9px rgba(0,0,0,0.75);
     border-bottom: 1px solid black;
     margin-bottom: 10px;
+    overflow: hidden;
+    animation: smooth 1s ease;
 }
 
 .song-detail img{
@@ -242,7 +290,268 @@
     color: white;
 }
 
+#Learning{
+    margin: 5px 0;
+    width: 300px;
+    border-radius: 20px;
+    border-color: grey;
+    height: 30px;
+}
 
+.filter{
+    display: none;
+    margin: 20px 100px;
+    height: 50px;
+    width: 55%;
+    box-shadow: 10px 10px 8px -9px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
 
+.filter.show{
+    display:flex;
+    height: 250px;
+}
 
+.filter-header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap:30px;
+    font-size: 26px;
+}
 
+.filter-header span{
+    font-size: 26px;
+    cursor:pointer;
+}
+
+.filter-inner{
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    transition: 1s;
+}
+
+.filter-inner.show{
+    display: flex;
+}
+
+.filter-inner-fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-inner-fields select{
+    width: 220px;
+    height: 24px;
+}
+
+.filter-inner-fields:last-of-type{
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding:10px;
+    cursor:pointer;
+}
+
+.filter-inner-fields:nth-child(7):hover{
+    background-color: black;
+    color: white;
+}
+
+.filter-inner input{
+    width: 220px;
+}
+
+.sort{
+    display: flex;
+    flex-direction: column;
+}
+
+.sort select{
+    width:220px;
+    height: 24px;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+}
+
+.footer-upper{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.footer-inner{
+    display: flex;
+    align-items: center;
+    margin: 30px 100px;
+}
+
+.footer-inner:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-inner p{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-inner span{
+    color:grey;
+}
+
+.filter-inner-fields input[type="range"]{
+    -webkit-appearance: none;
+    height: 6px;
+    background: lightgray;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.filter-inner-fields input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+#StrelaGore{
+    position: fixed;
+    font-size: 45px;
+    color:black;
+    cursor: pointer;
+    bottom: 180px;
+    right: 50px;
+    opacity: 0;
+    visibility: hidden; 
+    transform: rotateY(180deg);
+    transition: 0.3s ease;
+}
+
+@media only screen and (max-width: 390px){
+    .navbar{    
+        height: 100px;
+    }
+
+    .logo img{
+        width: 120px;
+        height: 90px;
+        margin-left: 0;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    .welcome{
+        display: none;
+    }
+
+    .navLi{
+        display: none;
+        margin: 20px;
+    }
+
+    .navbar .login{
+        display: none;
+    }
+
+    .footer-inner{
+        display: flex;
+        margin: 10px;
+    }
+
+    .sticky{
+        position: fixed;
+        top: 0;
+        border-bottom: 5px solid grey;
+    }
+
+    #StrelaGore{
+        right:20px;
+    }
+
+    .hamburger{
+        display: flex;
+        align-items: center;
+        color:white;
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    .logo.responsive{
+        display: none;
+    }
+
+    .login.responsive{
+        display: flex;
+        margin: 0;
+        width: 0;
+    }
+
+    .navUl.responsive li{
+        display: block !important;
+    }
+
+    .instruments{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .filter{
+        margin:20px;
+        width: 70%;
+    }
+
+    .filter-inner input{
+        width: 200px;
+    }
+
+    .filter.show{
+        height: 500px;
+    }
+
+    .filter-inner-fields select{
+        width: 200px;
+    }
+
+    .song-detail{
+        flex-direction: column;
+    }
+
+    .song-detail img{
+        width: 150px;
+    }
+
+    .song-details-info{
+        margin: 5px 0;
+    }
+
+    .song-wrapper{
+        margin: 10px 15px;
+    }
+
+    .back{
+        margin: 50px 20px;
+    }
+
+    .song-details-info{
+        font-size: 16px;
+    }
+
+    .show-less{
+        margin: 0;
+    }
+
+  }

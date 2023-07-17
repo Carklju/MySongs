@@ -11,7 +11,8 @@
             "genre": "Grunge",
             "lyrics": "",
             "language": "English",
-            "mp3": "Nirvana_-_Smells_Like_Teen_Spirit.mp3"
+            "mp3": "Nirvana_-_Smells_Like_Teen_Spirit.mp3",
+            "recommended": "Yes"
         },
         {
             "title": "Wonderwall",
@@ -24,11 +25,12 @@
             "genre": "Britpop",
             "lyrics": "",
             "language": "English",
-            "mp3": "Oasis_-_Wonderwall_.mp3"
+            "mp3": "Oasis_-_Wonderwall_.mp3",
+            "recommended": "Yes"
         },
         {
             "title": "Hotel California",
-            "artist": "Eagles",
+            "artist": "Eagles",     
             "releaseDate": "1976",
             "instrument":"Guitar",
             "img": "icon-03.png",
@@ -37,7 +39,8 @@
             "genre": "Rock",
             "lyrics": "",
             "language": "English",
-            "mp3": "Eagles_-_Hotel_California_2013_Remaster_2013.mp3"
+            "mp3": "Eagles_-_Hotel_California_2013_Remaster_2013.mp3",
+            "recommended": "Yes"
         },
         {
             "title": "Sweet Child O'Mine",
@@ -50,7 +53,8 @@
             "genre": "Rock",
             "lyrics": "",
             "language": "English",
-            "mp3": "Guns_N_Roses_-_Sweet_Child_O_Mine.mp3"
+            "mp3": "Guns_N_Roses_-_Sweet_Child_O_Mine.mp3",
+            "recommended": "Yes"
         },
         {
             "title": "Stairway to Heaven",
@@ -63,7 +67,8 @@
             "genre": "Rock",
             "lyrics": "",
             "language": "English",
-            "mp3": "Led_Zeppelin_-_Stairway_to_Heaven_2012.mp3"
+            "mp3": "Led_Zeppelin_-_Stairway_to_Heaven_2012.mp3",
+            "recommended": "Yes"
         },
         {
             "title": "Schism",
@@ -76,7 +81,8 @@
             "genre": "Progressive Metal",
             "lyrics": "",
             "language": "English",
-            "mp3": "Schism.mp3"
+            "mp3": "Schism.mp3",
+            "recommended": "Yes"
         },
         {
             "title": "Can't Stop",
@@ -89,7 +95,8 @@
             "genre": "Alternative Rock",
             "lyrics": "",
             "language": "English",
-            "mp3": "Red_Hot_Chili_Peppers_-_Can_t_Stop.mp3"
+            "mp3": "Red_Hot_Chili_Peppers_-_Can_t_Stop.mp3",
+            "recommended": "Yes"
         },
         {
             "title": "Orion",
@@ -102,7 +109,8 @@
             "genre": "Thrash Metal",
             "lyrics": "",
             "language": "English",
-            "mp3": "Metallica_-_Orion.mp3"
+            "mp3": "Metallica_-_Orion.mp3",
+            "recommended": "Yes"
         },
         {
             "title": "Hysteria",
@@ -115,7 +123,8 @@
             "genre": "Alternative Rock",
             "lyrics": "",
             "language": "English",
-            "mp3": "Muse_-_Hysteria.mp3"
+            "mp3": "Muse_-_Hysteria.mp3",
+            "recommended": "Yes"
         },
         {
             "title": "Sir Duke",
@@ -128,7 +137,8 @@
             "genre": "R&B",
             "lyrics": "",
             "language": "English",
-            "mp3": "Stevie_Wonder_-_Sir_Duke.mp3"
+            "mp3": "Stevie_Wonder_-_Sir_Duke.mp3",
+            "recommended": "Yes"
         },
         {
             "title": "Tom Sawyer",
@@ -141,7 +151,8 @@
             "genre": "Progressive Rock",
             "lyrics": "",
             "language": "English",
-            "mp3": "Rush - Tom Sawyer.mp3"
+            "mp3": "Rush - Tom Sawyer.mp3",
+            "recommended": "Yes"
         },
         {
             "title": "Toxicity",
@@ -154,7 +165,8 @@
             "genre": "Alternative Metal",
             "lyrics": "",
             "language": "English",
-            "mp3": "System_Of_A_Down_-_Toxicity.mp3"
+            "mp3": "System_Of_A_Down_-_Toxicity.mp3",
+            "recommended": "Yes"
         },
         {
             "title": "Bleed",
@@ -167,7 +179,8 @@
             "genre": "Extreme Metal",
             "lyrics": "",
             "language": "English",
-            "mp3": "Meshuggah - Bleed.mp3"
+            "mp3": "Meshuggah - Bleed.mp3",
+            "recommended": "Yes"
         },
         {
             "title": "Kashmir",
@@ -180,7 +193,8 @@
             "genre": "Rock",
             "lyrics": "",
             "language": "English",
-            "mp3": "Led_Zeppelin_-_Kashmir.mp3"
+            "mp3": "Led_Zeppelin_-_Kashmir.mp3",
+            "recommended": "Yes"
         },
         {
             "title": "Come Togheter",
@@ -193,7 +207,8 @@
             "genre": "Blues Rock",
             "lyrics": "",
             "language": "English",
-            "mp3": "ComeTogheter.mp3"
+            "mp3": "ComeTogheter.mp3",
+            "recommended": "Yes"
         }    
     ]
 }

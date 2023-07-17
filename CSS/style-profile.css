@@ -1,0 +1,328 @@
+/*Navigacija*/
+.upper{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.upper p{
+    font-size: 22px;
+    color: grey;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 90px;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    margin: 40px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover{
+    font-size: 23px;
+    border-bottom: 2px groove white;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.logo img{
+    height: 80px;
+}
+
+.logo p {
+    color: white;
+    font-size: 25px;
+}
+
+.logo span{
+    color:grey;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+    width: 250px;
+    color: white;
+    font-size: 23px;
+    gap: 10px;
+}
+
+.login span{
+    color:white;
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.login span:hover{
+    font-size: 45px;
+    border-bottom: 2px groove white;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    border-bottom: 5px solid grey;
+}
+
+.profile-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 400px ;
+    box-shadow: 2px 1px 17px -3px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+
+.instrument{
+    border-radius: 20px;
+    padding:20px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.instrument:hover{
+    color:white;
+    background-color: black;
+}
+
+.status-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 400px;
+    box-shadow: 2px 1px 17px -3px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+
+.status{
+    border-radius: 20px;
+    padding:20px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.status:hover{
+    color:white;
+    background-color: black;
+}
+
+.selektovan{
+    color:white;
+    background-color: black;
+    border-radius: 20px;
+    padding:20px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.song{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 400px;
+}
+
+
+.songs{
+    display: flex;
+    list-style-type: none;
+    box-shadow: 10px 10px 8px -9px rgba(0,0,0,0.75);
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.songs img{
+    width: 100px;
+    height: 120px;
+}
+
+.name{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.name p{
+    font-size: 20px;
+    margin: 10px 0px 10px 20px;
+}
+
+.name span{
+    color:grey;
+    margin: 10px 0px 10px 20px;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+}
+
+.footer-upper{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.footer-inner{
+    display: flex;
+    align-items: center;
+    margin: 30px 100px;
+}
+
+.footer-inner:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-inner p{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-inner span{
+    color:grey;
+}
+
+#StrelaGore{
+    position: fixed;
+    font-size: 45px;
+    color:black;
+    cursor: pointer;
+    bottom: 180px;
+    right: 50px;
+    opacity: 0;
+    visibility: hidden; 
+    transform: rotateY(180deg);
+    transition: 0.3s ease;
+}
+
+@media only screen and (max-width: 390px){
+    .navbar{    
+        height: 100px;
+    }
+
+    .logo img{
+        width: 120px;
+        height: 90px;
+        margin-left: 0;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    .welcome{
+        display: none;
+    }
+
+    .navLi{
+        display: none;
+        margin: 20px;
+    }
+
+    .navbar .login{
+        display: none;
+    }
+
+    .footer-inner{
+        display: flex;
+        margin: 10px;
+    }
+
+    .sticky{
+        position: fixed;
+        top: 0;
+        border-bottom: 5px solid grey;
+    }
+
+    #StrelaGore{
+        right:20px;
+    }
+
+    .hamburger{
+        display: flex;
+        align-items: center;
+        color:white;
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    .logo.responsive{
+        display: none;
+    }
+
+    .login.responsive{
+        display: flex;
+        margin: 0;
+        width: 0;
+    }
+
+    .navUl.responsive li{
+        display: block !important;
+    }
+
+    .profile-wrap{
+        margin:20px 0;
+    }
+
+    .status-wrap{
+        margin:20px 0;
+        flex-wrap: wrap;
+        width: 70%;
+        margin-left: 60px;
+        gap: 5px;
+    }
+    
+    .status{
+        padding:10px;
+    }
+
+    .instrument{
+        padding:10px;
+    }
+
+    .selektovan{
+        padding:10px;
+    }
+    
+    .song{
+        height:210px;
+        margin: 0;
+    }
+
+    .songs{
+        
+    }
+  }

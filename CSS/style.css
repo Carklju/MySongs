@@ -1,8 +1,24 @@
 /*Navigacija*/
+.upper{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.upper p{
+    font-size: 22px;
+    color: grey;
+}
+
 .navbar{
     display: flex;
     background-color: black;
     height: 90px;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar ul{
@@ -31,11 +47,23 @@
 }
 
 .logo{
+    display: flex;
+    align-items: center;
     margin-left: 100px;
+    cursor: pointer;
 }
 
 .logo img{
-    height: 90px;
+    height: 80px;
+}
+
+.logo p {
+    color: white;
+    font-size: 25px;
+}
+
+.logo span{
+    color:grey;
 }
 
 .login{
@@ -44,41 +72,32 @@
     justify-content: center;
     margin-right: 70px;
     width: 250px;
-}
-
-.login a {
-    text-decoration: none;
-}
-
-.login-btn{
-    margin-right: 50px;
-    font-size: 20px;
     color: white;
+    font-size: 23px;
+    gap: 10px;
+}
+
+.login span{
+    color:white;
+    font-size: 40px;
+    cursor: pointer;
     transition: 0.5s;
 }
 
-.login-btn:hover{
-    font-size: 23px;
+.login span:hover{
+    font-size: 45px;
     border-bottom: 2px groove white;
 }
 
-.register-btn{
-    margin-right: 50px;
-    font-size: 20px;
-    color: white;
-    transition: 0.5s;
+.sticky{
+    position: fixed;
+    top: 0;
+    border-bottom: 5px solid grey;
 }
-
-.register-btn:hover{
-    font-size: 23px;
-    border-bottom: 2px groove white;
-}
-
 /*CSS za preporucene pesme svakog instrumenta */
 
 .best{
-    margin: 150px;
-    margin-top: 75px;
+    margin: 40px 100px;
 }
 
 .best-header{
@@ -161,14 +180,373 @@
     color: grey;
 }
 
-.details-wrapper{
-    display: none;
+.details-inner{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: flex-start;
+    position:absolute;
+    z-index: 1;
+    background: white;
+    top:50%;
+    left: 12%;
+    width: 82vw;
+    height: 500px;
+    box-shadow: 10px 10px 8px -9px rgba(0,0,0,0.75);
+    border-bottom: 1px solid black;
+    animation: smooth 1s ease;
 }
 
+@keyframes smooth {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.details-inner img{
+    width: 225px;
+    height: 225px;
+}
+
+.details-info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 10px 40px;
+    font-size: 20px;
+}
+
+.details-info span{
+    color:grey;
+}
+
+.exit{
+    margin:10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.blur{
+    filter: blur(10px);
+    user-select: none;
+    pointer-events: none;
+}
+
+.song-list{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.song{
+    display: flex;
+    list-style-type: none;
+    box-shadow: 10px 10px 8px -9px rgba(0,0,0,0.75);
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.song img{
+    width: 100px;
+    height: 120px;
+}
+
+.name{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.name p{
+    font-size: 20px;
+    margin: 10px 0px 10px 20px;
+}
+
+.name span{
+    color:grey;
+    margin: 10px 0px 10px 20px;
+}
+
+.more{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    cursor: pointer;
+}   
+
+/*Audio player */
+.prog{
+    -webkit-appearance: none; 
+    width: 100%;
+    height: 6px;
+    background: lightgray;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.prog::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.controls div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
+    cursor: pointer;
+    margin-top: 10px;
+    background: grey;
+    color: white;
+}
+
+#Learning{
+    margin: 5px 0;
+    width: 300px;
+    border-radius: 20px;
+    border-color: grey;
+    height: 30px;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+}
+
+.footer-upper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-inner{
+    display: flex;
+    align-items: center;
+    margin: 30px 100px;
+}
+
+.footer-inner:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-inner p{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-inner span{
+    color:grey;
+}
+
+#StrelaGore{
+    position: fixed;
+    font-size: 45px;
+    color:black;
+    cursor: pointer;
+    bottom: 180px;
+    right: 50px;
+    opacity: 0;
+    visibility: hidden; 
+    transition: 0.3s ease;
+    rotate: 180deg;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.song-detail{
+    display:flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 500px;
+    box-shadow: 10px 10px 8px -9px rgba(0,0,0,0.75);
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.song-detail img{
+    width:225px;
+    height: 225px;
+}
+
+.song-details-info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 10px 40px;
+    font-size: 20px;
+}
+
+.song-details-info span{
+    color: grey; 
+}
+
+.show-less{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.strelica{
+    transform: rotate(180deg);
+}
 
 /* Responzivnost */
 @media only screen and (max-width: 1480px) {
     .best-song img{
         width:205px;
     }
+  }
+
+  @media only screen and (max-width: 390px){
+    .navbar{    
+        height: 100px;
+    }
+
+    .best{
+        margin: 0;
+    }
+
+    .logo img{
+        width: 120px;
+        height: 90px;
+        margin-left: 0;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    .welcome{
+        display: none;
+    }
+
+    .navLi{
+        display: none;
+        margin: 20px;
+    }
+
+    .navbar .login{
+        display: none;
+    }
+
+    .best-instrument{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .best-songs{
+        flex-wrap: wrap;
+        margin-left: 90px;
+    }
+
+    .best-songs img{
+        width: 100%;
+    }
+
+    .footer-inner{
+        display: flex;
+        margin: 10px;
+    }
+
+    .details-inner{
+        flex-direction: column;
+        height: 700px;
+    }
+
+    .details-inner img{ 
+        width: 320px;
+        height: 220px;
+    }
+
+    .details-info{
+        margin: 10px;
+    }
+
+    .song-list{
+        margin: 10px 15px;
+        /* padding:20px; */
+    }
+
+    .best-header span {
+        font-size: 40px;
+    }
+
+    .sticky{
+        position: fixed;
+        top: 0;
+        border-bottom: 5px solid grey;
+    }
+
+    #StrelaGore{
+        right:20px;
+    }
+
+    .hamburger{
+        display: flex;
+        align-items: center;
+        color:white;
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    .logo.responsive{
+        display: none;
+    }
+
+    .login.responsive{
+        display: flex;
+        margin: 0;
+        width: 0;
+    }
+
+    .navUl.responsive li{
+        display: block !important;
+    }
+
+    .song-detail{
+        flex-direction: column;
+    }
+
+    .song-detail img{
+        width: 150px;
+    }
+
+    .song-details-info{
+        margin: 5px 0;
+        font-size: 16px;
+    }
+    
+    .show-less{
+        margin: 0;
+    }
+
   }

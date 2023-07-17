@@ -1,4 +1,4 @@
-/* Dugme prikazi sifru u loginu*/
+/*Button show password*/
 let passwordShow = document.getElementById("showpass").addEventListener("click", ()=>{
     let password = document.getElementById("passwordtxt");
     if(password.type === "password"){
@@ -9,30 +9,27 @@ let passwordShow = document.getElementById("showpass").addEventListener("click",
     }
 });
 
-/* Validacija login forme*/
+/*Validation of login form*/
 let login = document.querySelector(".login").addEventListener("click", ()=>{
     let username = document.getElementById("usertxt");
-    let provera = true;
+    let check = true;
     let password = document.getElementById("passwordtxt");
-
-    console.log("Provera");
 
     if(username.value === ""){
         username.className = "error";
-        provera = false;
+        check = false;
     }else{
         username.removeAttribute("class");
     }
 
     if(password.value === ""){
         password.className = "error";
-        provera = false;
+        check = false;
     }else{
         username.removeAttribute("class");
     }
-});
 
-//Dugme za povratak na home stranicu
-document.querySelector(".back-btn").addEventListener("click", () =>{
-    window.location.replace("../index.html");
+    if(password.value === localStorage.getItem("password") && username.value === localStorage.getItem("username")){
+        window.location.href = "home.html"
+    }
 });

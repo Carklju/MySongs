@@ -1,157 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MySongs</title>
-    <meta name="title" content="MySongs"/>
-    <meta name="description" content="MySongs is popular songs app for marking songs that you learned."/>
-    <link rel="shortcut icon" href="images/icon za tab.png"/>
-    <link rel="stylesheet" href="CSS/style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style-register.css" />
     <link rel="stylesheet" href="CSS/zajednicki.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="navbar">
-      <div class="logo">
-        <img src="images/logo.avif" alt="logo" width="100px" height="100px" />
-      </div>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="HTML/songs.html">Songs</a></li>
-      </ul>
-      <div class="login">
-        <a href="HTML/login.html">
-          <span class="login-btn"> Login </span>
-        </a>
-        <a href="HTML/register.html">
-          <span class="register-btn"> Sign Up </span>
-        </a>
-      </div>
+    <link rel="shortcut icon" href="images/icon za tab.png"/>
+    <title>MySongs</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-header">
+            <h1>Register</h1>
+        </div>
+        <form action="">
+            <label for="usertxt">Username</label>
+            <input type="text" name="usertxt" id="usertxt" placeholder="Enter your username">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="petar.petrovic@gmail.com">
+            <label for="passwordtxt">Password</label>
+            <input type="password" name="passwordtxt" id="passwordtxt" placeholder="Enter your password">
+            <label for="confirmpasswordtxt">Confirm Password</label>
+            <input type="password" name="confirmpasswordtxt" id="confirmpasswordtxt" placeholder="Confrim password">
+            <span id="Already">Already have account?</span>
+            <div class="register">
+                <span>Register</span>
+            </div>
+        </form>
     </div>
-    <div class="best">
-      <div class="best-instrument">
-        <div class="best-header">
-          <span>Recommended for guitar</span>
-          <a><p>See All</p></a>
-        </div>
-        <div class="best-songs">
-          <div class="best-song">
-            <img src="images/nirvana.jpg" alt="Nirvana">
-            <h3>Nirvana</h3>
-            <h4>Smells Like Teen Spirit</h4>
-            <span>Details</span>
-          </div>
-          <div class="best-song">
-            <img src="images/oasis.jpg" alt="Oasis">
-            <h3>Oasis</h3>
-            <h4>Wonderwall</h4>
-            <span>Details</span>
-          </div>
-          <div class="best-song">
-            <img src="images/eagles.jpg" alt="Eagles">
-            <h3>Eagles</h3>
-            <h4>Hotel California</h4>
-            <span>Details</span>
-          </div>
-          <div class="best-song">
-            <img src="images/guns.jpg" alt="Guns N' Roses">
-            <h3>Guns N' Roses</h3>
-            <h4>Sweet Child O' Mine</h4>
-            <span>Details</span>
-          </div>
-          <div class="best-song">
-            <img src="images/led.jpg" alt="Led Zeppelin">
-            <h3>Led Zeppelin</h3>
-            <h4>Stairway to Heaven</h4>
-            <span>Details</span>
-          </div>
-        </div>
-      </div>
-      <!--Detalji za svaku pesmu-->
-      <div class="details-wrapper">
-
-      </div>
-      <div class="best-instrument">
-        <div class="best-header">
-          <span>Recommended for bass guitar</span>
-          <a href="#"><p>See All</p></a>
-        </div>
-        <div class="best-songs">
-          <div class="best-song">
-            <img src="images/tool.jpg" alt="TOOl">
-            <h3>TOOL</h3>
-            <h4>Schism</h4>
-            <span>Details</span>
-          </div>
-          <div class="best-song">
-            <img src="images/red hot.jpg" alt="Red Hot Chilli Peppers">
-            <h3>Red Hot Chilli Peppers</h3>
-            <h4>Can't Stop</h4>
-            <span>Details</span>
-          </div>
-          <div class="best-song">
-            <img src="images/mettalica.jpg" alt="Metallica">
-            <h3>Metallica</h3>
-            <h4>Orion</h4>
-            <span>Details</span>
-          </div>
-          <div class="best-song">
-            <img src="images/muse.jpg" alt="Muse">
-            <h3>Muse</h3>
-            <h4>Hysteria</h4>
-            <span>Details</span>
-          </div>
-          <div class="best-song">
-            <img src="images/sir duke.jpg" alt="Stevie Wonder">
-            <h3>Stevie Wonder</h3>
-            <h4>Sir Duke</h4>
-            <span>Details</span>
-          </div>
-        </div>
-      </div>
-      <div class="best-instrument">
-        <div class="best-header">
-          <span>Recommended for drums</span>
-          <a href="#"><p>See All</p></a>
-        </div>
-        <div class="best-songs">
-          <div class="best-song">
-            <img src="images/rush.jpg" alt="Rush">
-            <h3>Rush</h3>
-            <h4>Tom Sawyer</h4>
-            <span>Details</span>
-          </div>
-          <div class="best-song">
-            <img src="images/system.jpg" alt="System Of A Down">
-            <h3>System Of A Down</h3>
-            <h4>Toxicity</h4>
-            <span>Details</span>
-          </div>
-          <div class="best-song">
-            <img src="images/bleed.jpg" alt="Meshuggah">
-            <h3>Meshuggah</h3>
-            <h4>Bleed</h4>
-            <span>Details</span>
-          </div>
-          <div class="best-song">
-            <img src="images/kashmir.jpg" alt="Led Zeppelin">
-            <h3>Led Zeppelin</h3>
-            <h4>Kashmir</h4>
-            <span>Details</span>
-          </div>
-          <div class="best-song">
-            <img src="images/come.jpg" alt="The Beatles">
-            <h3>The Beatles</h3>
-            <h4>Come Togheter</h4>
-            <span>Details</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script src="JS/script-index.js"></script>
-  </body>
+    <script src="JS/script-register.js"></script>
+</body>
 </html>
